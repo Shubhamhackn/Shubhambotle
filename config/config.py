@@ -42,7 +42,7 @@ SONG_DOWNLOAD_DURATION = int(
 
 # You'll need a Private Group ID for this.
 
-LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001923845903"))
+LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001694132088"))
 
 # A name for your Music bot.
 
@@ -52,7 +52,7 @@ MUSIC_BOT_NAME = getenv("MUSIC_BOT_NAME","ArchMusic")
 
 OWNER_ID = list(
 
-    map(int, getenv("OWNER_ID", "5218610039").split())
+    map(int, getenv("OWNER_ID", "5864436910").split())
 
 )  # Input type must be interger
 
@@ -70,7 +70,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/ArchBots/ArchMusic",
+    "https://github.com/samdaveloper/ArchMusic",
 
 )
 
@@ -84,13 +84,13 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 SUPPORT_CHANNEL = getenv(
 
-    "SUPPORT_CHANNEL", "https://t.me/ArchBots"
+    "SUPPORT_CHANNEL", "https://t.me/The_Caption_XD"
 
 )  # Example:- https://t.me/ArchBots
 
 SUPPORT_GROUP = getenv(
 
-    "SUPPORT_GROUP", "https://t.me/ARCH_SUPPORTS"
+    "SUPPORT_GROUP", "https://t.me/lover_jerry"
 
 )  # Example:- https://t.me/ARCH_SUPPORTS
 
@@ -136,7 +136,7 @@ TELEGRAM_DOWNLOAD_EDIT_SLEEP = int(getenv("TELEGRAM_EDIT_SLEEP", "5"))
 
 # Your Github Repo.. Will be shown on /start Command
 
-GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/ArchBots/ArchMusic")
+GITHUB_REPO = getenv("GITHUB_REPO", "https://github.com/samdaveloper/ArchMusic")
 
 # Spotify Client.. Get it from https://developer.spotify.com/dashboard
 
