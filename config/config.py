@@ -70,7 +70,7 @@ UPSTREAM_REPO = getenv(
 
     "UPSTREAM_REPO",
 
-    "https://github.com/samdaveloper/ArchMusic",
+    "https://github.com/Samdaveloper/ArchMusic",
 
 )
 
